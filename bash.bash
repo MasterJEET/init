@@ -19,6 +19,7 @@ parse_git_branch() {
 }
 
 export PS1='\[\e[36m\][\[\e[m\]\[\e[31m\]\u\[\e[m\]\[\e[33m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]:\[\e[36m\]\W]\[\e[m\]\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ '
+export WORKON_HOME=~/.virtualenvs
 
 # $footer
 "
