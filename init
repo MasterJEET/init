@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+jmbashrc="$(dirname $0)/jmbashrc.sh"
+jmvimrc="$(dirname $0)/jmvimrc.sh"
+
+# customize bash
+$jmbashrc
+
+# customize vim
+$jmvimrc
+
