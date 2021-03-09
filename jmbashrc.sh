@@ -13,7 +13,7 @@ git_prompt_url="https://raw.githubusercontent.com/git/git/master/contrib/complet
 git_completion_file="$(basename $git_completion_url)"
 git_prompt_file="$(basename $git_prompt_url)"
 
-git_dir="$(dirname $0)/git"
+git_dir="$(readlink -f $(dirname $0))/git"
 
 ### CUSTOMIZATION TO BE ADDED
 content="
