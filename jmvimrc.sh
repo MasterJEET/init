@@ -25,6 +25,12 @@ set expandtab
 \" Set row number
 set nu
 
+\" Set ruler
+set colorcolumn=80
+
+\" Enable hard wrap, the value zero will disable it
+set textwidth=80
+
 \" $footer
 "
 
